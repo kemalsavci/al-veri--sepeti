@@ -19,7 +19,7 @@ $(document).ready(function () {
     $(".removeFromCartBtn").click(function () {
 
         var url = "lib/cart_db.php";
-        var data = {
+        var data = { 
             p: "removeFromCart",
             product_id: $(this).attr("product-id")
         }
